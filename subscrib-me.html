@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Subscrib Me!</title>
+</head>
+<h1>Subscrib Me!</h1>
+
+<body>
+  <form action="mailto:info@shawngancs93@gmail.com" method="post" enctype="text/plain">
+    <label for="get-name">Your name:</label>
+    <input type="text" name="name" value="">
+    <br>
+    <label for="get-gender">Your gender:</label>
+    <input type="radio" id="male" name="male" value="male" checked>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="female" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="unisex" name="unisex" value="unisex">
+    <label for="unisex">Unisex</label>
+    <br>
+    <label for="get-country">Your country:</label>
+    <input type="checkbox" name="china" value="" checked><label for="china">China</label>
+    <input type="checkbox" name="canada" value=""><label for="canada">Canada</label>
+    <input type="checkbox" name="france" value=""><label for="france">France</label>
+    <br>
+    <label for="get-dates">Your date of brith</label>
+    <input type="date" name="date" value="">
+    <br>
+    <label for="get-photo">Your photo:</label>
+    <input type="file" name="photo" value="" accept="image/jpeg, image/png">
+    <br>
+    <label for="get-email">Your email:</label>
+    <input type="email" name="email" value="">
+    <br>
+    <label for="get-password">Your password(4 to 8 characters):</label>
+    <input type="password" name="password" value="" required minlength="4" maxlength="8" size="10">
+    <br>
+    <label for="get-message">Your message:</label>
+    <br>
+    <textarea name="get-message" rows="10" cols="40"></textarea>
+    <br>
+    <label for="get-subscription">Do you want to subscript me?</label>
+    <input type="checkbox" name="" value="" checked>
+    <br>
+    <center>
+      <input type="reset" value="Reset">
+      <input type="submit" name="" value="Submit">
+    </center>
+  </form>
+</body>
+
+</html>
